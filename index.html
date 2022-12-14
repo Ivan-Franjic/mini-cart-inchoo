@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Mini cart</title>
+</head>
+<body>
+    <div class="navbar">
+        <button id="cartbtn" onclick="openCart()"><i class="fa fa-shopping-cart"></i></button>
+    </div>
+<div class="cart">
+    <h3>My cart (5 items)</h3>
+
+    <button id="cart-list-prev"><i class="fa fa-arrow-up"></i></button>
+
+    <div id="cart-items" class="cart-items" >
+        <div class="item">
+            <div class="image">
+                <img src="images/macbook.jpg"/>
+            </div>
+            <div class="about-item">
+                <h1>Macbook pro 14"</h1>
+                <p class="description">Color: Silver </br>Brand: Apple</p>
+                <p class="price">1 x $199.00</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <img src="images/thinkpad.jpg"/>
+            </div>
+            <div class="about-item">
+                <h1>Lenovo Thinkpad</h1>
+                <p class="description">Color: Black </br>Brand: Lenovo</p>
+                <p class="price">1 x $199.00</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <img src="images/rog-strix-g15.png"/>
+            </div>
+            <div class="about-item">
+                <h1>Asus ROG Strix g15</h1>
+                <p class="description">Color: Gray </br>Brand: Asus</p>
+                <p class="price">1 x $199.00</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <img src="images/lenovo-tab.jpg"/>
+            </div>
+            <div class="about-item">
+                <h1>Lenovo Tab M10 FHD Plus</h1>
+                <p class="description">Color: Silver </br>Brand: Lenovo</p>
+                <p class="price">1 x $199.00</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="image">
+                <img src="images/iphone-14-pro.jpg"/>
+            </div>
+            <div class="about-item">
+                <h1>iPhone 14 pro</h1>
+                <p class="description">Color: Graphite </br>Brand: Apple</p>
+                <p class="price">1 x $199.00</p>
+            </div>
+        </div>
+    </div>
+
+    <button id="cart-list-next"><i class="fa fa-arrow-down"></i></button>
+
+    <div class="cart-buttons">
+        <button class="edit-cart">Edit cart</button>
+        <button class="checkout">CHECKOUT</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
